@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url(assets/Poppins-Medium.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Poppins-lights";
+    src: url(assets/Poppins-Light.ttf);
+    font-weight: 400;
+}
+
+.topheader p{
+    color: #343839;
+    font-family: "Poppins-Medium";
+    font-weight: 400;
+    
+}
+.topheader{
+    display: flex;
+    background-color: #F3F5F7;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.topheader a{
+    font-family: "Poppins-Medium";
+    font-weight: 400;
+    color: blue;
+}
+.osnovaheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0;
+}
+.ategi a{
+    text-decoration: none;
+    color: #6C7275;
+    font-family: "Poppins-lights";
+    font-weight: 400;
+    margin-left: 40px;
+}
+.ategi p{
+    font-family: "Poppins-lights";
+    font-weight: 700;
+    color: black;
+}
+.osnovaheader h3{
+    font-family: "Poppins-Medium";
+    font-weight: 700;
+    font-size: 24px;
+}
+.divan img{
+    display: flex;
+    margin: auto;
+}
+.poddivan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.poddivan h1{
+    font-family: "Poppins-Medium";
+    font-weight: 700;
+    font-size: 72px;
+}
+.poddivan p{
+    font-family: "Poppins-lights";
+    font-weight: 400;
+    font-size: 20px;
+    color: #6C7275;
+    width: 450px;
+}
